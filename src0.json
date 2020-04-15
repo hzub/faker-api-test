@@ -1,0 +1,24 @@
+{
+  "photographers": [
+    {
+      "name": "name.findName",
+      "things": ["name.findName", "address.secondaryAddress"],
+      "address": {
+        "street": "address.streetName",
+        "city": "address.city:static",
+        "number": "address.secondaryAddress"
+      },
+      "photos": [
+        {
+          "dateTaken": "date.past:static",
+          "url": "image.imageUrl.640.480",
+          "title": "random.words.3",
+          "placeLat": "address.latitude",
+          "placeLong": "address.longitude"
+        },
+        "@repeat:3"
+      ]
+    },
+    "@repeat:2"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "photographer": {
+    "name": "name.findName",
+    "rzeczy": ["name.findName", "address.city"],
+    "address": {
+      "street": "address.streetName",
+      "city": "address.city",
+      "number": "address.secondaryAddress"
+    },
+    "photos": [
+      {
+        "url": "image.imageUrl.640.480",
+        "dateTaken": "date.past",
+        "title": "random.words.3:static",
+        "placeLat": "address.latitude",
+        "placeLong": "address.longitude"
+      },
+      {
+        "url": "image.imageUrl.320.240",
+        "dateTaken": "date.past"
+      },
+      "@repeat:1"
+    ]
+  }
+}

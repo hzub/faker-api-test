@@ -1,0 +1,24 @@
+{
+  "defs": {
+    "addressDef": {
+      "street": "address.street_name",
+      "city": "address.city",
+      "number": "address.building_number"
+    },
+    "albumPhoto": {
+      "url": "image.imageUrl.640.480",
+      "dateTaken": "date.past",
+      "title": "random.words.3:static",
+      "placeLat": "address.latitude",
+      "placeLong": "address.longitude"
+    },
+    "photographer": {
+      "name": "name.findName",
+      "address": "use:addressDef",
+      "photos": ["use:albumPhoto", "@repeat:15"]
+    }
+  },
+  "response": {
+    "photographers": ["use:photographer", "@repeat:10"]
+  }
+}

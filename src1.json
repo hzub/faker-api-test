@@ -1,0 +1,20 @@
+{
+  "photographer": {
+    "name": "name.findName",
+    "things": {
+      "abc": "name.findName:static",
+      "tab": [
+        {
+          "halo": "name.findName",
+          "xyz": "image.imageUrl",
+          "foo": [
+            { "photo": "image.imageUrl" },
+            { "photo": "image.imageUrl" },
+            { "photo": "image.imageUrl" }
+          ]
+        },
+        "@repeat:1"
+      ]
+    }
+  }
+}
