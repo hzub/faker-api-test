@@ -9,7 +9,7 @@
     "@types/node": "^13.11.1",
     "@types/uuid": "^7.0.2",
     "faker": "^4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nodemon": "^2.0.3",
     "typescript": "^3.8.3",
     "uuid": "^7.0.3"
